@@ -73,7 +73,7 @@ const Signup = () => {
                         Create Account
                     </h2>
                     <p className="mt-2 text-center text-sm text-gray-600">
-                        Join CampusSchield today
+                        Join LinkMe today
                     </p>
                 </div>
 

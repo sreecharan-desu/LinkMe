@@ -119,7 +119,7 @@ const MobileDashboard = () => {
                     setTimeout(() => handleLogout(), 2000);
                 }
             } else {
-                if(data.error.includes("Plan executor error during findAndModify :: caused by :: E11000 duplicate key error collection: CampusSchieldAPI.users index: CollegeEmail_1 dup key:")){
+                if(data.error.includes("Plan executor error during findAndModify :: caused by :: E11000 duplicate key error collection: LinkMe.users index: CollegeEmail_1 dup key:")){
                     setUpdateStatus({ type: 'error', message: `The email id you are trying to use has already taken by someone please use another email.`});
                     setTimeout(()=>{
                         setUpdateStatus({ type: '', message: '' })
